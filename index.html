@@ -1,19 +1,24 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TBC X USAID</title>
-    <link rel="stylesheet" href="/asssets/styles/main.css" />
-    <link rel="stylesheet" href="/asssets/styles/header.css" />
-    <link rel="stylesheet" href="/asssets/styles/introduction.css" />
-    <link rel="stylesheet" href="/asssets/styles/courses.css" />
-    <link rel="stylesheet" href="/asssets/styles/customFonts.css" />
-    <script src="/scripts/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="/assets/styles/main.css" />
+    <link rel="stylesheet" href="/assets/styles/header.css" />
+    <link rel="stylesheet" href="/assets/styles/introduction.css" />
+    <link rel="stylesheet" href="/assets/styles/courseContainer.css" />
+    <link rel="stylesheet" href="/assets/styles/courseCard.css" />
+    <link rel="stylesheet" href="/assets/styles/footer.css" />
+    <link rel="stylesheet" href="/assets/styles/customFonts.css" />
+    <link rel="icon" href="/assets/images/logos/logo.svg" />
+    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/courseRenderer.js" type="module" defer></script>
   </head>
   <body>
-    <header class="main_header">
+    <header>
       <div class="logo_container">
-        <img src="/asssets/images/logos/logo.svg" alt="" class="logo" />
+        <img src="/assets/images/logos/logo.svg" alt="" class="logo" />
       </div>
       <div class="burger_container">
         <div class="burger_line burger_line_top"></div>
@@ -29,6 +34,7 @@
         </nav>
       </div>
     </header>
+
     <main class="main_wrapper">
       <section class="introduction">
         <div class="introduction_banner">
@@ -55,5 +61,35 @@
         <div class="courses_wrapper"></div>
       </section>
     </main>
+
+    <footer>
+      <div class="company_logo_container">
+        <img
+          src="/assets/images/logos/tbc_logo.webp"
+          class="footer_company_logo"
+          alt="company_logo"
+        />
+      </div>
+      <div class="footer_interaction_container">
+        <button class="contact_btn">მოგვწერეთ</button>
+        <div class="socials_container">
+          <img
+            src="/assets/images/icons/facebook.webp"
+            alt="social_fb"
+            class="socials_icon"
+          />
+          <img
+            src="/assets/images/icons/youtube.webp"
+            alt="social_yt"
+            class="socials_icon"
+          />
+        </div>
+      </div>
+      <div class="copyright_claim_container">
+        <p class="copyright_text">
+          წესები და პირობები<br />© 2023 ყველა უფლება დაცულია
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

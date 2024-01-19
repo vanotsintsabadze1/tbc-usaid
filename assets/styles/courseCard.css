@@ -1,0 +1,56 @@
+.course {
+  width: 340px;
+  height: 340px;
+  margin-top: 30px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.course_image_wrapper {
+  width: 100%;
+  height: 140px;
+}
+
+.course_image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.course_information {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.course_card_text {
+  color: white;
+  font-family: "ContracticaRegular";
+  line-height: 2em;
+  font-size: 17px;
+  margin-top: 35px;
+}
+
+.course_details_container {
+  width: 185px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.arrow_icon {
+  width: 22px;
+  height: 18px;
+}
+
+.course_details_link {
+  font-family: "ContracticaBoldCaps";
+  color: #03aeef;
+  font-size: 15px;
+  margin-top: 7px;
+}

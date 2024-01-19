@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "ContracticaRegular";
+  src: url("/assets/fonts/contractica/TBCContractica-Regular.ttf") format("ttf"),
+    url("/assets/fonts/contractica/TBCContractica-Regular.woff") format("woff"),
+    url("/assets/fonts/contractica/TBCContractica-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "ContracticaRegularCaps";
+  src: url("/assets/fonts/contractica/TBCContracticaCAPS-Regular.ttf")
+      format("ttf"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Regular.woff")
+      format("woff"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Regular.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "ContracticaBold";
+  src: url("/assets/fonts/contractica/TBCContractica-Bold.ttf") format("ttf"),
+    url("/assets/fonts/contractica/TBCContractica-Bold.woff") format("woff"),
+    url("/assets/fonts/contractica/TBCContractica-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "ContracticaBlack";
+  src: url("/assets/fonts/contractica/TBCContractica-Black.ttf") format("ttf"),
+    url("/assets/fonts/contractica/TBCContractica-Black.ttf") format("woff"),
+    url("/assets/fonts/contractica/TBCContractica-Black.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "ContracticaBlackCaps";
+  src: url("/assets/fonts/contractica/TBCContracticaCAPS-Black.ttf")
+      format("ttf"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Black.woff")
+      format("woff"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Black.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-family: "ContracticaBoldCaps";
+  src: url("/assets/fonts/contractica/TBCContracticaCAPS-Bold.ttf")
+      format("ttf"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Bold.woff") format("woff"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Bold.woff2")
+      format("woff2");
+}
