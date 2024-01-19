@@ -1,0 +1,56 @@
+.introduction {
+  width: 100dvw;
+  min-height: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introduction_banner {
+  width: 100%;
+  height: 250px;
+  background-image: url("/asssets//images/background_images/banner_images/banner_mobile.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.banner_text {
+  font-size: 24px;
+  color: white;
+  line-height: 1.8em;
+  font-family: "ContracticaBlack";
+}
+
+.banner_text span {
+  font-family: "ContracticaBoldCaps";
+}
+
+.description_div {
+  width: 100%;
+  height: 570px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+}
+
+.program_description {
+  font-size: 19px;
+  margin-top: 30px;
+  color: white;
+  font-family: "ContracticaRegular";
+  line-height: 30px;
+  width: 340px;
+}
+
+.program_navlink {
+  font-size: 18px;
+  color: #00aef3;
+  font-family: "ContracticaBold";
+  text-decoration: none;
+  margin-top: 50px;
+}
