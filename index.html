@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TBC X USAID</title>
+    <title>TBC x USAID</title>
     <link rel="stylesheet" href="/assets/styles/main.css" />
     <link rel="stylesheet" href="/assets/styles/header.css" />
     <link rel="stylesheet" href="/assets/styles/introduction.css" />
     <link rel="stylesheet" href="/assets/styles/courseContainer.css" />
     <link rel="stylesheet" href="/assets/styles/courseCard.css" />
+    <link rel="stylesheet" href="/assets/styles/slider.css" />
+    <link rel="stylesheet" href="/assets/styles/faqContainer.css" />
     <link rel="stylesheet" href="/assets/styles/footer.css" />
     <link rel="stylesheet" href="/assets/styles/customFonts.css" />
     <link rel="icon" href="/assets/images/logos/logo.svg" />
     <script src="/scripts/main.js" defer></script>
     <script src="/scripts/courseRenderer.js" type="module" defer></script>
+    <script src="/scripts/faqRenderer.js" type="module" defer></script>
+    <script src="/scripts/slider.js" type="module" defer></script>
   </head>
   <body>
     <header>
@@ -59,6 +63,89 @@
           <h3 class="courses_header">სასწავლო კურსები</h3>
         </div>
         <div class="courses_wrapper"></div>
+      </section>
+
+      <section class="slider_wrapper">
+        <p>პროექტის პარტნიორები</p>
+        <div class="slider_container"></div>
+      </section>
+
+      <section class="questions_section">
+        <p class="faq">
+          ხშირად დასმული<br />
+          კითხვები
+        </p>
+
+        <div class="questions_wrapper">
+          <div class="question_card">
+            <div class="question_div">
+              <p class="question">
+                როგორ ხდება კურსებზე რეგისტრაცია და შერჩევა?
+              </p>
+              <img src="/assets/images/icons/tick.svg" class="tick_icon" />
+            </div>
+            <div class="answer_div">
+              <p class="answer">
+                კურსზე რეგისტრაციისთვის უნდა გაიარო რამდენიმე ეტაპი:
+                <br /><br />
+                <b>I ეტაპი</b> - პირველ ეტაპზე საჭიროა, შეავსო სასურველი
+                კურსისთვის განკუთვნილი სარეგისტრაციო ფორმა, რომელიც
+                განთავსებულია კურსის შიდა გვერდზე. კურსზე რეგისტრაციის
+                დასრულების შემდეგ დაიწყება შემოსული განცხადებების გადარჩევა.
+                <br /><br />
+                <b>II ეტაპი</b> - შერჩევის მეორე ეტაპი კურსების მიხედვით
+                განსხვავებულია, ზოგიერთი კურსისთვის მოიცავს პრე-ტესტს, ზოგიერთ
+                კურსზე კი უნარების ტესტს, სადაც მინიმალური ზღვარის გადალახვის
+                შემთხვევაში გადახვალ <br /><br />
+                <b>III ეტაპი</b> - მესამე ეტაპი კურსების მიხედვით განსხვავდება:
+                Advance კურსებზე, სადაც მოითხოვება გარკვეული ტექნიკური ცოდნა,
+                მონაწილეებმა უნდა დაწერონ ტექნიკური ტესტი ცოდნის დონის
+                შესამოწმებლად, ხოლო კურსებზე, სადაც რაიმე ტიპის წინასწარი ცოდნა
+                მოთხოვნილი არ არის უნდა შეასრულოთ ტექნიკური დავალება, რაც თქვენი
+                კვლევისა და თვითსწავლის უნარს ამოწმებს. <br /><br />
+                <b>IV ეტაპი</b> - შერჩევის ბოლო მეოთხე ეტაპი მოიცავს გასაუბრებას
+                შესარჩევ კომისიასთან. გასაუბრების წარმატებით გავლის შემთხვევაში
+                ჩაირიცხებით კურსზე და გაფორმდება შესაბამისი ხელშეკრულება.
+                <br /><br />
+                * სანამ კურსზე დარეგისტრირდები მნიშვნელოვანია, ყურადღებით
+                წაიკითხო კურსის აღწერა, ნახო რას ისწავლი კურსის განმავლობაში და
+                გაიგო გააჩნია თუ არა კურსს დასწრების წინაპირობა.
+              </p>
+            </div>
+          </div>
+          <div class="question_card">
+            <div class="question_div">
+              <p class="question">
+                შემიძლია თუ არა ერთზე მეტ კურსზე რეგისტრაცია?
+              </p>
+              <img src="/assets/images/icons/tick.svg" class="tick_icon" />
+            </div>
+            <div class="answer_div">
+              <p class="answer">
+                TBC X USAID ტექნოლოგიური განათლებისთვის პროგრამაში თითოეულ
+                კანდიდატს აქვს მხოლოდ ერთი კურსის გავლის შესაძლებლობა. გარდა
+                Information Security და Python კურსებისა, სადაც Basic დონის
+                გავლის შემდეგ შესაძლებელია სწავლის გაგრძელება Advance დონეზე.
+              </p>
+            </div>
+          </div>
+          <div class="question_card">
+            <div class="question_div">
+              <p class="question">რა ღირს სწავლა პროგრამის ფარგლებში?</p>
+              <img src="/assets/images/icons/tick.svg" class="tick_icon" />
+            </div>
+            <div class="answer_div">
+              <p class="answer">
+                პროგრამის ფარგლებში კურსებზე სწავლა სრულიად დაფინანსებულია
+                თიბისი ბანკისა და USAID-ის მიერ.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq_navlink_div">
+          <a href="" class="faq_navlink">ყველა კითხვა</a>
+        </div>
       </section>
     </main>
 
