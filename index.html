@@ -14,32 +14,36 @@
     <link rel="stylesheet" href="/assets/styles/footer.css" />
     <link rel="stylesheet" href="/assets/styles/customFonts.css" />
     <link rel="icon" href="/assets/images/logos/logo.svg" />
-    <script src="/scripts/main.js" defer></script>
+    <script src="/scripts/burgerMenu.js" defer></script>
     <script src="/scripts/courseRenderer.js" type="module" defer></script>
     <script src="/scripts/faqRenderer.js" type="module" defer></script>
-    <script src="/scripts/slider.js" type="module" defer></script>
+    <script src="/scripts/imageSlider.js" type="module" defer></script>
   </head>
   <body>
+    <!-- Header -->
     <header>
       <div class="logo_container">
         <img src="/assets/images/logos/logo.svg" alt="" class="logo" />
       </div>
-      <div class="burger_container">
-        <div class="burger_line burger_line_top"></div>
-        <div class="burger_line burger_line_middle"></div>
-        <div class="burger_line burger_line_bottom"></div>
+      <div class="wrapper-menu">
+        <div class="line-menu half start"></div>
+        <div class="line-menu"></div>
+        <div class="line-menu half end"></div>
       </div>
+
       <div class="navigation_wrapper">
         <nav>
-          <a href="" class="nav_link"></a>
-          <a href="" class="nav_link"></a>
-          <a href="" class="nav_link"></a>
-          <a href="" class="nav_link"></a>
+          <a href="" class="nav_link">მთავარი</a>
+          <a href="" class="nav_link">TBC IT</a>
+          <a href="" class="nav_link">TBC x USAID</a>
+          <a href="" class="nav_link">რისკები</a>
         </nav>
       </div>
     </header>
 
+    <!-- Main Section -->
     <main class="main_wrapper">
+      <!-- Introduction Section -->
       <section class="introduction">
         <div class="introduction_banner">
           <h3 class="banner_text">
@@ -58,24 +62,78 @@
           <a href="#" class="program_navlink">გაიგე მეტი</a>
         </div>
       </section>
+      <!-- კურსების სექცია - Course Section -->
       <section class="courses_section">
         <div class="courses_header_div">
           <h3 class="courses_header">სასწავლო კურსები</h3>
         </div>
-        <div class="courses_wrapper"></div>
+        <div class="courses_wrapper">
+          <!-- კურსების ჩამატება ხდება აქ courseRenderer.js-ის მეშვეობით.
+               Courses get automatically rendered using courseRenderer.js -->
+        </div>
       </section>
+
+      <!-- Slider-ის სექცია - Slider Section -->
 
       <section class="slider_wrapper">
         <p>პროექტის პარტნიორები</p>
-        <div class="slider_container"></div>
+        <div class="slider_container" data-slider-container>
+          <button class="slider_button prev_slide" data-slider-button="prev">
+            <img src="/assets/images/icons/caret_left.svg" />
+          </button>
+          <button class="slider_button next_slide" data-slider-button="next">
+            <img src="/assets/images/icons/caret_right.svg" />
+          </button>
+          <ul data-slides class="slider_group">
+            <li class="slide" data-active>
+              <img
+                src="/assets/images/carousel_images/1.webp"
+                class="slider_image"
+              />
+              <img
+                src="/assets/images/carousel_images/2.webp"
+                class="slider_image"
+              />
+              <img
+                src="/assets/images/carousel_images/3.webp"
+                class="slider_image"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="/assets/images/carousel_images/4.webp"
+                class="slider_image"
+              />
+              <img
+                src="/assets/images/carousel_images/5.webp"
+                class="slider_image"
+              />
+              <img
+                src="/assets/images/carousel_images/6.webp"
+                class="slider_image"
+              />
+            </li>
+            <li class="slide">
+              <img
+                src="/assets/images/carousel_images/7.webp"
+                class="slider_image"
+              />
+            </li>
+          </ul>
+          <div class="slider_nav">
+            <button class="slider_nav_button" />
+            <button class="slider_nav_button" />
+            <button class="slider_nav_button" />
+          </div>
+        </div>
       </section>
 
+      <!-- FAQ სექცია - FAQ Section -->
       <section class="questions_section">
         <p class="faq">
           ხშირად დასმული<br />
           კითხვები
         </p>
-
         <div class="questions_wrapper">
           <div class="question_card">
             <div class="question_div">
@@ -149,6 +207,7 @@
       </section>
     </main>
 
+    <!-- Footer სექცია - Footer Section -->
     <footer>
       <div class="company_logo_container">
         <img
