@@ -17,7 +17,7 @@ courseList.forEach((c) => {
       <img src="${c.imageSrc}" class="course_image"/>
     </div>
     <div class="course_information">
-      <p class="course_card_text">${c.name}<br /> რეგისტრაცია ${c.state}</p>
+      <p class="course_card_text">${c.name}<br /><span class="registration_state">რეგისტრაცია ${c.state}</span></p>
       <div class="course_details_container">
         <img class="arrow_icon" src="/assets/images/icons/arrow.svg"/>
         <a class="course_details_link">კურსის დეტალები</a>  

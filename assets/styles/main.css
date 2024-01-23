@@ -4,8 +4,12 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+}
+
 .main_wrapper {
   width: 100dvw;
-  min-height: 800px;
+  min-height: 80rem;
   background-color: blue;
 }

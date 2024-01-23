@@ -1,6 +1,6 @@
 header {
   width: 100dvw;
-  height: 80px;
+  height: 8rem;
   background-color: #1a1e1f;
   display: flex;
   align-items: center;
@@ -8,57 +8,57 @@ header {
 }
 
 .logo {
-  width: 140px;
-  height: 35px;
-  margin-left: 20px;
+  width: 14rem;
+  height: 3.5rem;
+  margin-left: 2rem;
 }
 
-.wrapper-menu {
-  width: 28px;
-  height: 23px;
+.burger_wrapper {
+  width: 2.8rem;
+  height: 2.3rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
   transition: transform 330ms ease-out;
   position: absolute;
-  right: 20px;
+  right: 2rem;
   z-index: 2;
 }
 
 /* BurgerMenu-ს სტაილინგი.*/
 
-.wrapper-menu.open {
+.burger_wrapper.open {
   transform: rotate(-45deg);
 }
 
-.line-menu {
+.burger_line {
   background-color: #dbdbdb;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   width: 100%;
-  height: 3px;
+  height: 0.3rem;
 }
 
-.line-menu.half {
+.burger_line.half {
   width: 50%;
 }
 
-.line-menu.start {
+.burger_line.start {
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   transform-origin: right;
 }
 
-.open .line-menu.start {
+.open .burger_line.start {
   transform: rotate(-90deg) translateX(3px);
 }
 
-.line-menu.end {
+.burger_line.end {
   align-self: flex-end;
   transition: transform 330ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
   transform-origin: left;
 }
 
-.open .line-menu.end {
+.open .burger_line.end {
   transform: rotate(-90deg) translateX(-3px);
 }
 
@@ -76,12 +76,12 @@ header {
 
 .navigation_wrapper nav {
   width: 95%;
-  height: 200px;
+  height: 20rem;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 10rem;
 }
 
 .nav_link {
@@ -94,11 +94,11 @@ header {
 }
 
 .navigation_wrapper_active {
-  width: 200px;
+  width: 20rem;
   opacity: 1;
 }
 
 .nav_link_active {
   opacity: 1;
-  font-size: 17px;
+  font-size: 1.7rem;
 }

@@ -1,4 +1,4 @@
-const wrapperMenu = document.querySelector(".wrapper-menu");
+const wrapperMenu = document.querySelector(".burger_wrapper");
 const navigationWrapper = document.querySelector(".navigation_wrapper");
 const navLinks = document.querySelectorAll(".nav_link");
 
