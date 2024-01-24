@@ -101,7 +101,7 @@
   }
 
   .program_navlink {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     margin-left: 0.2rem;
   }
 }
@@ -120,7 +120,7 @@
   .banner_text {
     font-size: 4.2rem;
     line-height: 1.6em;
-    font-family: "ContracticaBold";
+    font-family: "ContracticaBlack";
   }
 
   .banner_text span {
@@ -140,12 +140,13 @@
 
   .program_description {
     line-height: 1.6em;
-    font-size: 2.8rem;
+    font-size: 2.6rem;
     width: 95rem;
   }
 
   .program_navlink {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    margin-left: 0.5rem;
   }
 }
 

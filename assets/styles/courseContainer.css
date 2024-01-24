@@ -70,7 +70,7 @@
   }
 
   .courses_wrapper {
-    width: 100rem;
+    width: 102rem;
     min-height: 40rem;
     display: grid;
     grid-template-columns: auto auto auto;

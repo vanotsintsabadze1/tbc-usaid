@@ -2,15 +2,18 @@ import { courseList } from "../data/courses.js";
 
 const courseWrapper = document.querySelector(".courses_wrapper");
 
+/* 
+
+  For each course that is in the courses.js file, we create a new div element and add a class to it.
+  Then we add the innerHTML to the div element, which will contain the course image, course name, registration state and course details link.
+  Then we append the div element to the courseWrapper element, which is the main element that contains everything.
+  The purpose of this is to not fiddle in the HTML file, but to create everything dynamically in the JavaScript file.
+
+*/
+
 courseList.forEach((c) => {
-  const courseDiv = document.createElement("div"); // მასივის ყველა ობიექტისთვის იქმნება ახალი ელემენტი.
-  courseDiv.classList.add("course"); // შექმნილ ელემენტს ენიჭება კლასი.
-
-  /* 
-    შექმნილი ელემენტის innerHTML ხდება შექმნილი შაბლონი, სადაც
-    კონკრეტული ობიექტის property არის მინიჭებული.
-
-  */
+  const courseDiv = document.createElement("div");
+  courseDiv.classList.add("course");
 
   courseDiv.innerHTML = `
     <div class="course_image_wrapper">
@@ -28,6 +31,5 @@ courseList.forEach((c) => {
       </div>
     </div>`;
 
-  // მთავარ ელემენტს, რომელიც ყველაფერს ერთად მოიცავს ემატება ეს შექმნილი კურსის ელემენტები.
   courseWrapper.appendChild(courseDiv);
 });
