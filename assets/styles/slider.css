@@ -182,12 +182,22 @@
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1400px) {
   .slider_button_left {
-    left: 5rem;
+    left: 12rem;
   }
 
   .slider_button_right {
-    right: 5rem;
+    right: 12rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .slider_button_left {
+    left: 30rem;
+  }
+
+  .slider_button_right {
+    right: 30rem;
   }
 }
