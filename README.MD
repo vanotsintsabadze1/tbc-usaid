@@ -52,9 +52,11 @@
 
 - **index.html:** პროექტის მთავარი markup ფაილი.
 - **assets:** დირექტორია, რომელიც ინახავს სტატიკურ აქტივებს, როგორებიცაა:
+
         1.ფოტოები, ლოგოები და აიქონები.
         2. CSS სტაილინგ ფაილები.
         3. პროექტში გამოყენებული ასოთა შრიფტი.
+
 - **data:** დირექტორია სადაც ინახება პროექტში გამოყენებული მონაცემები.
 - **scripts:** დირექტორია სადაც ინახება Javascript ფაილები.
 
@@ -134,9 +136,11 @@ The website had to:
 
 - **index.html:** Main HTML file for the project.
 - **assets:** Directory for storing static assets like images, stylesheets, or fonts:
+
         1.Images, logos, icons.
         2. CSS files.
         3. Custom font that has been used in the project.
+
 - **data:** Directory for storing data files used in the project.
 - **scripts:** Directory for storing JavaScript files or other scripts.
 
