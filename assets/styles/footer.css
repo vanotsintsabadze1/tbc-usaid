@@ -67,6 +67,11 @@ footer {
   line-height: 2.5em;
 }
 
+.tos {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 339px) {
   footer {
     height: 27rem;
@@ -92,5 +97,58 @@ footer {
   .socials_icon {
     width: 4rem;
     height: 4rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer {
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer_inner_wrapper {
+    height: 18rem;
+    position: relative;
+    width: 90rem;
+    padding: 1rem;
+  }
+
+  .footer_interaction_container {
+    width: 40rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 14rem;
+    gap: 4rem;
+  }
+
+  .contact_btn {
+    width: 17rem;
+    height: 4rem;
+    font-size: 1.6rem;
+  }
+
+  .socials_container {
+    height: 4rem;
+    width: 15rem;
+    gap: 2rem;
+  }
+
+  .copyright_claim_container {
+    width: 40rem;
+  }
+
+  .copyright_text {
+    font-size: 1.4rem;
+  }
+
+  .socials_icon {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 }

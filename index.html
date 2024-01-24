@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/assets/styles/faqContainer.css" />
     <link rel="stylesheet" href="/assets/styles/footer.css" />
     <link rel="stylesheet" href="/assets/styles/customFonts.css" />
-    <link rel="icon" href="/assets/images/logos/logo.svg" />
+    <link rel="icon" href="/assets/images/logos/title_logo.png" />
     <script src="/scripts/burgerMenu.js" defer></script>
     <script src="/scripts/courseRenderer.js" type="module" defer></script>
     <script src="/scripts/faqRenderer.js" type="module" defer></script>
@@ -47,29 +47,33 @@
       <section class="introduction">
         <div class="introduction_banner">
           <div class="introduction_banner_text_div">
-            <h3 class="banner_text">
-              TBC x USAID <br />
-              <span> ტექნოლოგიური <br />განათლებისთვის </span>
-            </h3>
+            <div>
+              <h3 class="banner_text">
+                TBC x USAID <br />
+                <span> ტექნოლოგიური <br />განათლებისთვის </span>
+              </h3>
+            </div>
           </div>
         </div>
         <div class="description_div">
-          <p class="program_description">
-            „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
-            ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
-            ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT
-            მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა
-            დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.
-            <br />
-            <br />
-            <a href="#" class="program_navlink">გაიგე მეტი</a>
-          </p>
+          <div>
+            <p class="program_description">
+              „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა
+              საინფორმაციო ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ
+              სრულად დაფინანსებულ ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს
+              სხვადასხვა ICT მიმართულებით. წარმატებულ კურსდამთავრებულებს ეძლევათ
+              შესაძლებლობა დასაქმდნენ თიბისისა და მის პარტნიორ კომპანიებში.
+              <br />
+              <br />
+              <a href="#" class="program_navlink">გაიგე მეტი</a>
+            </p>
+          </div>
         </div>
       </section>
       <!-- კურსების სექცია - Course Section -->
       <section class="courses_section">
         <div class="courses_header_div">
-          <div class="test">
+          <div>
             <h3 class="courses_header">სასწავლო კურსები</h3>
           </div>
         </div>
@@ -82,7 +86,11 @@
       <!-- Slider-ის სექცია - Slider Section -->
 
       <section class="slider_section">
-        <p>პროექტის პარტნიორები</p>
+        <div class="slider_section_text_div">
+          <div>
+            <p>პროექტის პარტნიორები</p>
+          </div>
+        </div>
         <button class="slider_button slider_button_left" data-button>
           <img src="/assets/images/icons/caret_left.svg" />
         </button>
@@ -113,10 +121,14 @@
 
       <!-- FAQ სექცია - FAQ Section -->
       <section class="questions_section">
-        <p class="faq">
-          ხშირად დასმული<br />
-          კითხვები
-        </p>
+        <div class="test3">
+          <div>
+            <p class="faq">
+              ხშირად დასმული<br />
+              კითხვები
+            </p>
+          </div>
+        </div>
         <div class="questions_wrapper">
           <div class="question_card">
             <div class="question_div">
@@ -182,42 +194,47 @@
               </p>
             </div>
           </div>
-        </div>
-
-        <div class="faq_navlink_div">
-          <a href="" class="faq_navlink">ყველა კითხვა</a>
+          <div class="faq_navlink_div">
+            <div>
+              <a href="" class="faq_navlink">ყველა კითხვა</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
 
     <!-- Footer სექცია - Footer Section -->
     <footer>
-      <div class="company_logo_container">
-        <img
-          src="/assets/images/logos/tbc_logo.webp"
-          class="footer_company_logo"
-          alt="company_logo"
-        />
-      </div>
-      <div class="footer_interaction_container">
-        <button class="contact_btn">მოგვწერეთ</button>
-        <div class="socials_container">
+      <div class="footer_inner_wrapper">
+        <div class="company_logo_container">
           <img
-            src="/assets/images/icons/facebook.webp"
-            alt="social_fb"
-            class="socials_icon"
-          />
-          <img
-            src="/assets/images/icons/youtube.webp"
-            alt="social_yt"
-            class="socials_icon"
+            src="/assets/images/logos/tbc_logo.webp"
+            class="footer_company_logo"
+            alt="company_logo"
           />
         </div>
-      </div>
-      <div class="copyright_claim_container">
-        <p class="copyright_text">
-          წესები და პირობები<br />© 2023 ყველა უფლება დაცულია
-        </p>
+        <div class="footer_interaction_container">
+          <button class="contact_btn">მოგვწერეთ</button>
+          <div class="socials_container">
+            <img
+              src="/assets/images/icons/facebook.webp"
+              alt="social_fb"
+              class="socials_icon"
+            />
+            <img
+              src="/assets/images/icons/youtube.webp"
+              alt="social_yt"
+              class="socials_icon"
+            />
+          </div>
+        </div>
+        <div class="copyright_claim_container">
+          <p class="copyright_text">
+            © 2023 ყველა უფლება დაცულია<br /><a class="tos" href="#"
+              >წესები და პირობები</a
+            >
+          </p>
+        </div>
       </div>
     </footer>
   </body>

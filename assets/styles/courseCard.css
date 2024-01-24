@@ -67,9 +67,10 @@
   color: #03aeef;
   font-size: 1.5rem;
   margin-top: 0.7rem;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1000px) {
   .course {
     width: 30rem;
     height: 43rem;
@@ -97,5 +98,25 @@
 
   .course_card_text {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+  .course {
+    width: 25rem;
+    height: 34rem;
+  }
+
+  .course_information {
+    height: 20rem;
+    padding: 0 2rem 3rem 1.5rem;
+  }
+
+  .course_card_text {
+    margin-top: 0;
+  }
+
+  .course_details_container {
+    margin-top: 2rem;
   }
 }
