@@ -134,7 +134,10 @@ The website had to:
 
 - **index.html:** Main HTML file for the project.
 - **assets:** Directory for storing static assets like images, stylesheets, or fonts:
-  1.Images, logos, icons. 2. CSS files. 3. Custom font that has been used in the project.
+
+        1. Images, logos and icons.
+        2. CSS files.
+        3. Custom font that is used for the project.
 
 - **data:** Directory for storing data files used in the project.
 - **scripts:** Directory for storing JavaScript files or other scripts.
