@@ -126,3 +126,29 @@
     font-size: 1.7rem;
   }
 }
+
+@media (min-width: 768px) {
+  .slider_wrapper {
+    width: 100rem;
+  }
+
+  .slider {
+    flex-direction: row;
+  }
+
+  .slider[data-active] {
+    flex-direction: row;
+  }
+
+  .slider_button {
+    background: none;
+  }
+
+  .slider_button_left {
+    left: 3rem;
+  }
+
+  .slider_button_right {
+    right: 3rem;
+  }
+}

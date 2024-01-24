@@ -48,3 +48,13 @@
     url("/assets/fonts/contractica/TBCContracticaCAPS-Bold.woff2")
       format("woff2");
 }
+
+@font-face {
+  font-family: "ContracticaLightCaps";
+  src: url("/assets/fonts/contractica/TBCContracticaCAPS-Light.ttf")
+      format("ttf"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Light.woff")
+      format("woff"),
+    url("/assets/fonts/contractica/TBCContracticaCAPS-Light.woff2")
+      format("woff2");
+}

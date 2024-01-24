@@ -102,3 +102,46 @@ header {
   opacity: 1;
   font-size: 1.7rem;
 }
+
+@media (min-width: 768px) {
+  header {
+    justify-content: center;
+    height: 9rem;
+    gap: 15rem;
+  }
+
+  .logo {
+    width: 18rem;
+    height: 5rem;
+  }
+  .burger_wrapper {
+    display: none;
+  }
+
+  .navigation_wrapper {
+    all: unset;
+    width: 60rem;
+    height: 10rem;
+    /* background: purple; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navigation_wrapper nav {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+
+  .nav_link {
+    all: unset;
+    font-size: 1.35rem;
+    color: white;
+    font-family: "ContracticaRegularCaps";
+  }
+}

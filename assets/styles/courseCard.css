@@ -1,7 +1,7 @@
 .course {
   width: 32rem;
   height: 34rem;
-  border: 1px solid gray;
+  border: 1px solid rgb(76, 75, 75);
   border-radius: 1rem;
 }
 
@@ -26,16 +26,26 @@
   flex-direction: column;
 }
 
+.course_card_text_section {
+  width: 100%;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .course_card_text {
   color: white;
   font-family: "ContracticaRegular";
-  line-height: 2em;
   font-size: 1.6rem;
   margin-top: 2rem;
 }
 
 .registration_state {
   font-size: 1.4rem;
+  color: white;
+  font-family: "ContracticaRegular";
+  margin-top: 20px;
 }
 
 .course_details_container {
@@ -57,6 +67,23 @@
   color: #03aeef;
   font-size: 1.5rem;
   margin-top: 0.7rem;
+}
+
+@media (min-width: 768px) {
+  .course {
+    width: 30rem;
+    height: 43rem;
+  }
+
+  .course_information {
+    height: 28rem;
+    justify-content: space-between;
+  }
+
+  .course_card_text {
+    line-height: 1.6em;
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 350px) {
