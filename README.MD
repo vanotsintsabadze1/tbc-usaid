@@ -26,7 +26,7 @@
 
     1. გახსენით ტერმინალი ან CMD.
     2. გადადით იმ დირექტორიაში სადაც პროექტის კლონირება გსურთ.
-    3. გაუშვით შემდეგი ბრძანება: git clone https://github.com/vanotsintsabadze1/
+    3. გაუშვით შემდეგი ბრძანება: git clone https://github.com/vanotsintsabadze1/tbc-usaid
 
 **პროექტის ლაივში გაშვება**:
 
